@@ -1,3 +1,3 @@
-(lambda () 
-  "Hello World"
+(define sqr 
+  (lambda (x) (* x x))
 )
