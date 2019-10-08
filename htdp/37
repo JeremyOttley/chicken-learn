@@ -1,0 +1,7 @@
+;; Design the function string-rest, which produces a string like the given one with the first character removed. 
+
+(define (string-rest string)
+(if (string? string)
+    (list->string (cdr (string->list string)))
+    (print "Not a string"))
+)
