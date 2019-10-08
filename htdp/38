@@ -1,6 +1,6 @@
 ;; Exercise 38. Design the function string-remove-last, which produces a string like the given one with the last character removed. 
 
-(define (string-rest string)
+(define (string-remove-last string)
 (if (string? string)
     (substring string 0 (- (string-length string) 1))
     (print "Not a string"))
