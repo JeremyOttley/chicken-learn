@@ -1,7 +1,0 @@
-;; Coming from Ruby this is the most concise example of a block I have found
-
-;; Iteration over lists 
-(for-each (lambda (a) (print (* a a))) '(3 5 7))                  ;; => 9, 25, 49
-
-;; if ruby were written like scheme: function.lambda.data structure
-;;: map.{|x| x * x}.[1, 2, 3, 4, 5]
